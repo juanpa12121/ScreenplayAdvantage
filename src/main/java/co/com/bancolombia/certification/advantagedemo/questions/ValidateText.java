@@ -21,7 +21,7 @@ public class ValidateText implements Question<Boolean> {
         }
 
         WaitUntil.the(LBL_RESULT, isVisible()).forNoMoreThan(10).seconds();
-        return RESULTS.equals(Text.of(LBL_RESULT).viewedBy(actor).asString());
+        return RESULTS.equals(Text.of(LBL_RESULT).answeredBy(actor).toString());
     }
 
     public static ValidateText valText(){

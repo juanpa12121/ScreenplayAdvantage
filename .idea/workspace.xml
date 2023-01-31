@@ -5,40 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43876105-8438-479b-9df6-56328bdbe14e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/interactions/Waiting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/questions/ValidateBuyLaptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/questions/ValidateText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/tasks/BuyLaptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/tasks/CreateUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/tasks/LoginUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/userinterfaces/BuyLaptopPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/userinterfaces/CreateUserPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/userinterfaces/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/userinterfaces/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/utils/MyDriversWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/BuyLaptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/CreateUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/LoginUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/BuyLaptopSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/CreateUsersSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/LoginUsersSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/buy_laptop.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/create_users.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/login_users.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/serenity.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/questions/ValidateBuyLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/questions/ValidateBuyLaptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/questions/ValidateText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/questions/ValidateText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/utils/MyDriversWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/utils/MyDriversWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/BuyLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/BuyLaptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/CreateUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/CreateUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/LoginUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/LoginUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/BuyLaptopSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/BuyLaptopSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/CreateUsersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/CreateUsersSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/LoginUsersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/LoginUsersSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/buy_laptop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/buy_laptop.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/create_users.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/create_users.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +78,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/saris/Documents/Semillero-automatizacion/JUnit&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Downloads/AdvantageMobile&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -186,7 +173,7 @@
             <option value="&quot;co.com.bancolombia.certification.advantagedemo.runners.LoginUsers&quot;" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="-ea -Dwebdriver.driver=chrome" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
@@ -216,6 +203,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Login an existing user" />
+      <item itemvalue="Gradle.BuyLaptop" />
+      <item itemvalue="Gradle.CreateUsers" />
+      <item itemvalue="Gradle.LoginUsers" />
+      <item itemvalue="Gradle.LoginUsersUsers" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.LoginUsers" />

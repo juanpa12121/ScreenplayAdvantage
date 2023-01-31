@@ -10,9 +10,9 @@ public class MyDriversWeb {
 
     public static MyDriversWeb web(){
         System.setProperty("webchromedriver", "chromedriver.exe");
-        ChromeOptions optionsEmpanadas = new ChromeOptions();
-        optionsEmpanadas.addArguments("--incognito");
-        driver = new ChromeDriver(optionsEmpanadas);
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--incognito");
+        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         return new MyDriversWeb();
     }

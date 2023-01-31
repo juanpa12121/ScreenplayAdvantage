@@ -14,8 +14,8 @@ public class ValidateBuyLaptop implements Question<Boolean> {
     @Override
     public Boolean answeredBy(Actor actor) {
         Waiting.theSeconds(SPAN_THANKS_MESSAGE, 10);
-        System.out.println("El texto a validar es: "+Text.of(SPAN_THANKS_MESSAGE).viewedBy(actor).asString());
-        return SUCCESSFULL_LAPTOP_BUY.equals(Text.of(SPAN_THANKS_MESSAGE).viewedBy(actor).asString());
+        System.out.println("El texto a validar es: "+Text.of(SPAN_THANKS_MESSAGE).answeredBy(actor).toString());
+        return SUCCESSFULL_LAPTOP_BUY.equals(Text.of(SPAN_THANKS_MESSAGE).answeredBy(actor).toString());
     }
 
 
