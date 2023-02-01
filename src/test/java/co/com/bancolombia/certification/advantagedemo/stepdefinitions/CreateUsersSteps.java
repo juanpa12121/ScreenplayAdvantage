@@ -3,6 +3,7 @@ import co.com.bancolombia.certification.advantagedemo.questions.ValidateText;
 import co.com.bancolombia.certification.advantagedemo.tasks.CreateUsers;
 import co.com.bancolombia.certification.advantagedemo.utils.MyDriversWeb;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -15,6 +16,9 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import net.serenitybdd.screenplay.GivenWhenThen;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
+
+import java.util.List;
+import java.util.Map;
 
 public class CreateUsersSteps {
 
@@ -32,9 +36,12 @@ public class CreateUsersSteps {
 
 
     @When("^I enter the information to create the user$")
-    public void iEnterTheInformationToCreateTheUser() {
-        theActorInTheSpotlight().attemptsTo(CreateUsers.createUsers()
-        );
+    public void iEnterTheInformationToCreateTheUser(DataTable users) {
+        List<Map<String, String>> list = users.asMaps(String.class, String.class);
+        OnStage.theActorInTheSpotlight().attemptsTo(CreateUsers.createUsers(list));
+
+
+
     }
 
     @Then("^I validate the correct user creation$")

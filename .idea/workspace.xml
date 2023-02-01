@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43876105-8438-479b-9df6-56328bdbe14e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/models/CreateUserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/models/LoginUserModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/tasks/BuyLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/tasks/BuyLaptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/userinterfaces/BuyLaptopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/userinterfaces/BuyLaptopPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/BuyLaptopSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/BuyLaptopSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/tasks/CreateUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/tasks/CreateUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/CreateUsersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/CreateUsersSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/create_users.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/create_users.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,24 +72,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Documents/ScreenplayAdvantage&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Usuario/Documents/ScreenplayAdvantage/src/main/java/co/com/bancolombia/certification/advantagedemo",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Documents\ScreenplayAdvantage\src\main\java\co\com\bancolombia\certification\advantagedemo" />
       <recent name="C:\Users\saris\Documents\Semillero-automatizacion\ScreenplayAdvantage" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BuyLaptop">
+  <component name="RunManager" selected="Gradle.CreateUsers">
     <configuration name="BuyLaptop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -213,10 +213,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CreateUsers" />
         <item itemvalue="Gradle.BuyLaptop" />
         <item itemvalue="Gradle.ScreenplayAdvantage [assemble]" />
         <item itemvalue="Gradle.LoginUsers" />
-        <item itemvalue="Gradle.CreateUsers" />
         <item itemvalue="Gradle.LoginUsersUsers" />
       </list>
     </recent_temporary>
