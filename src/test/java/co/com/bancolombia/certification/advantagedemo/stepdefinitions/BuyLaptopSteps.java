@@ -33,7 +33,10 @@ public class BuyLaptopSteps {
 
     @When("^I enter the data for buy laptop$")
     public void iEnterTheDataForBuyLaptop() {
-        theActorInTheSpotlight().attemptsTo(BuyLaptop.buy());
+        theActorInTheSpotlight().attemptsTo(
+                LoginUsers.loginUsers(),
+                BuyLaptop.buy()
+        );
     }
 
     @Then("^Valid that a successful purchase has been made$")

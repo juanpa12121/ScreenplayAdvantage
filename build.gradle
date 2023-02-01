@@ -3,6 +3,7 @@ apply plugin: 'org.sonarqube'
 apply plugin: 'jacoco'
 apply plugin: 'application'
 apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
+apply plugin: 'idea'
 
 allprojects {
     ext.baseVersion = "0.1"

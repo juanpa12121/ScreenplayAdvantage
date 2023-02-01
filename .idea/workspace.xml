@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43876105-8438-479b-9df6-56328bdbe14e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/serenity.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/questions/ValidateBuyLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/questions/ValidateBuyLaptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/questions/ValidateText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/questions/ValidateText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/utils/MyDriversWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/utils/MyDriversWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/BuyLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/BuyLaptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/CreateUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/CreateUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/LoginUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/runners/LoginUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/tasks/BuyLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/tasks/BuyLaptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/userinterfaces/BuyLaptopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/bancolombia/certification/advantagedemo/userinterfaces/BuyLaptopPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/BuyLaptopSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/BuyLaptopSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/CreateUsersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/CreateUsersSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/LoginUsersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/bancolombia/certification/advantagedemo/stepdefinitions/LoginUsersSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/buy_laptop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/buy_laptop.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/create_users.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/create_users.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +35,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ScreenplayAdvantage" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ScreenplayAdvantage" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ScreenplayAdvantage" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -78,7 +78,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Downloads/AdvantageMobile&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Documents/ScreenplayAdvantage&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -90,27 +90,7 @@
       <recent name="C:\Users\saris\Documents\Semillero-automatizacion\ScreenplayAdvantage" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginUsers">
-    <configuration name="Scenario: Login an existing user" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/login_users.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="ScreenplayAdvantage.test" />
-      <option name="NAME_FILTER" value="^Login an existing user$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Login an existing user$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login an existing user" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.BuyLaptop">
     <configuration name="BuyLaptop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -203,8 +183,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ScreenplayAdvantage [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: Login an existing user" />
+      <item itemvalue="Gradle.ScreenplayAdvantage [assemble]" />
       <item itemvalue="Gradle.BuyLaptop" />
       <item itemvalue="Gradle.CreateUsers" />
       <item itemvalue="Gradle.LoginUsers" />
@@ -212,11 +213,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LoginUsers" />
         <item itemvalue="Gradle.BuyLaptop" />
+        <item itemvalue="Gradle.ScreenplayAdvantage [assemble]" />
+        <item itemvalue="Gradle.LoginUsers" />
         <item itemvalue="Gradle.CreateUsers" />
         <item itemvalue="Gradle.LoginUsersUsers" />
-        <item itemvalue="Cucumber Java.Scenario: Login an existing user" />
       </list>
     </recent_temporary>
   </component>

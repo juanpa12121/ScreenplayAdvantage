@@ -11,6 +11,8 @@ public class BuyLaptopPage {
     public static final Target BTN_ADD_TO_CART = Target.the("Add to cart").located(By.name("save_to_cart"));
     public static final Target BTN_CHECKOUT = Target.the("Cart").located(By.id("checkOutPopUp"));
     public static final Target BTN_NEXT = Target.the("Next button").located(By.id("next_btn"));
-    public static final Target CHK_MASTECARD = Target.the("Mastercard").located(By.id("pay_now_btn_MasterCredit"));
+    public static final Target CHK_MASTECARD = Target.the("Mastercard").located(By.xpath("//input[@name='masterCredit']"));
+
+    public static final Target BTN_PAY_NOW = Target.the("Mastercard").located(By.id("pay_now_btn_MasterCredit"));
     public static final Target SPAN_THANKS_MESSAGE = Target.the("Thanks message").located(By.xpath("//span[@class='roboto-regular ng-scope']"));
 }

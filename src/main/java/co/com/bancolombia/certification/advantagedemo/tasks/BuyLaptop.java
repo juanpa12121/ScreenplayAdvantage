@@ -26,8 +26,9 @@ public class BuyLaptop implements Task {
                 Click.on(BTN_CHECKOUT),
                 WaitUntil.the(BTN_NEXT, isVisible()).forNoMoreThan(15).seconds(),
                 Click.on(BTN_NEXT),
-                WaitUntil.the(CHK_MASTECARD, isVisible()).forNoMoreThan(15).seconds(),
-                Click.on(CHK_MASTECARD)
+                //WaitUntil.the(CHK_MASTECARD, isVisible()).forNoMoreThan(15).seconds(),
+                //Click.on(CHK_MASTECARD)
+                Click.on(BTN_PAY_NOW)
         );
     }
 
