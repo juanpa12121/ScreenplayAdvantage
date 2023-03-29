@@ -1,9 +1,12 @@
 package co.com.bancolombia.certification.advantagedemo.stepdefinitions;
+
+import co.com.bancolombia.certification.advantagedemo.interactions.LoginInteraction;
 import co.com.bancolombia.certification.advantagedemo.questions.ValidateBuyLaptop;
 import co.com.bancolombia.certification.advantagedemo.tasks.BuyLaptop;
 import co.com.bancolombia.certification.advantagedemo.tasks.LoginUsers;
 import co.com.bancolombia.certification.advantagedemo.utils.MyDriversWeb;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -15,12 +18,16 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
 
+import java.util.List;
+import java.util.Map;
+
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static co.com.bancolombia.certification.advantagedemo.utils.Constants.*;
 
 public class BuyLaptopSteps {
     @Managed
     WebDriver driver;
+
     @Given("^I want to go to the buy laptop page$")
     public void iWantToGoToTheBuyLaptopPage() {
         OnStage.setTheStage(Cast.ofStandardActors()); //Crear escenario
@@ -32,10 +39,10 @@ public class BuyLaptopSteps {
     }
 
     @When("^I enter the data for buy laptop$")
-    public void iEnterTheDataForBuyLaptop() {
+    public void iEnterTheDataForBuyLaptop(DataTable user) {
+        List<Map<String, String>> list = user.asMaps(String.class, String.class);
         theActorInTheSpotlight().attemptsTo(
-                LoginUsers.loginUsers(),
-                BuyLaptop.buy()
+                BuyLaptop.buy(list)
         );
     }
 

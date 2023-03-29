@@ -3,7 +3,14 @@ Feature: Successfully login user
   I need to login user
   To validate that users log in successfully
 
-  Scenario: Login an existing user successfully
+  Scenario Outline: Login an existing user successfully
     Given I am on the login page
     When I enter valid credentials
+      | username   | password   |
+      | <username> | <password> |
+
     Then I should be logged in successfully
+
+    Examples:
+      | username | password         |
+      | juanpa   | juan12@gmail.com |

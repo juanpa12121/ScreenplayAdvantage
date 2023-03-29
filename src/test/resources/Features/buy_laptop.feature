@@ -6,6 +6,12 @@ Feature: Successfully buy a laptop
   Background: Login in the web page
     Given I am on the login page
 
-  Scenario: Buying a laptop successfully
+  Scenario Outline: Buying a laptop successfully
     When I enter the data for buy laptop
+      | username   | password   | txtQuantity   | finalResultMessage   |
+      | <username> | <password> | <txtQuantity> | <finalResultMessage> |
     Then Valid that a successful purchase has been made
+
+    Examples:
+      | username | password     | txtQuantity | finalResultMessage                  |
+      | juanpa   | Aa$123456789 | 4           | Thank you for buying with Advantage |

@@ -1,10 +1,13 @@
 package co.com.bancolombia.certification.advantagedemo.stepdefinitions;
+
 import co.com.bancolombia.certification.advantagedemo.questions.ValidateBuyLaptop;
 import co.com.bancolombia.certification.advantagedemo.questions.ValidateText;
 import co.com.bancolombia.certification.advantagedemo.tasks.BuyLaptop;
 import co.com.bancolombia.certification.advantagedemo.tasks.LoginUsers;
 import co.com.bancolombia.certification.advantagedemo.utils.MyDriversWeb;
 
+
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -16,12 +19,16 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
 
+import java.util.List;
+import java.util.Map;
+
 import static co.com.bancolombia.certification.advantagedemo.utils.Constants.*;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class LoginUsersSteps {
     @Managed
     WebDriver driver;
+
     @Given("^I am on the login page$")
     public void iAmOnTheLoginPage() {
         OnStage.setTheStage(Cast.ofStandardActors());
@@ -33,16 +40,14 @@ public class LoginUsersSteps {
     }
 
     @When("^I enter valid credentials$")
-    public void iEnterValidCredentials() {
-        theActorInTheSpotlight().attemptsTo(
-                LoginUsers.loginUsers(),
-                BuyLaptop.buy()
-        );
+    public void iEnterValidCredentials(DataTable user) {
+        List<Map<String, String>> list = user.asMaps(String.class, String.class);
+        theActorInTheSpotlight().attemptsTo(LoginUsers.loginUsers(list));
     }
 
     @Then("^I should be logged in successfully$")
     public void iShouldBeLoggedInSuccessfully() {
         theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidateText.valText()));
-        theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidateBuyLaptop.valBuyLaptopText()));
+        //theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidateBuyLaptop.valBuyLaptopText()));
     }
 }

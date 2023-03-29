@@ -12,6 +12,7 @@ public class MyDriversWeb {
         System.setProperty("webchromedriver", "chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
+        options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         return new MyDriversWeb();
