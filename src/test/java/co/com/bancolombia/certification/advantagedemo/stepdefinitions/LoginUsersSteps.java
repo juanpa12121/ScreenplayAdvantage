@@ -1,4 +1,5 @@
 package co.com.bancolombia.certification.advantagedemo.stepdefinitions;
+import co.com.bancolombia.certification.advantagedemo.interactions.NavigateTo;
 import co.com.bancolombia.certification.advantagedemo.questions.ValidateBuyLaptop;
 import co.com.bancolombia.certification.advantagedemo.questions.ValidateText;
 import co.com.bancolombia.certification.advantagedemo.tasks.BuyLaptop;
@@ -17,18 +18,15 @@ import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
 
 import static co.com.bancolombia.certification.advantagedemo.utils.Constants.*;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class LoginUsersSteps {
     @Managed
     WebDriver driver;
     @Given("^I am on the login page$")
-    public void iAmOnTheLoginPage() {
-        OnStage.setTheStage(Cast.ofStandardActors());
-        OnStage.theActorCalled(ACTOR_PAGE);
-        //OnStage.theActorInTheSpotlight().can(BrowseTheWeb.with(MyDriversWeb.web().inThePageWeb(URL)));
-        theActorInTheSpotlight().can(BrowseTheWeb.with(driver));
-        OnStage.theActorInTheSpotlight().wasAbleTo(Open.url("https://www.advantageonlineshopping.com/#/"));
+    public void iAmOnTheLoginPage(String ambiente) {
+        theActorCalled("User").wasAbleTo(NavigateTo.onThePage(ambiente));
         driver.manage().window().maximize();
     }
 

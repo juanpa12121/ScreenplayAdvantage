@@ -9,10 +9,10 @@ import static co.com.bancolombia.certification.advantagedemo.userinterfaces.Home
 import static co.com.bancolombia.certification.advantagedemo.utils.Constants.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
-public class ValidateText implements Question<Boolean> {
+public class ValidateText implements Question<String> {
 
     @Override
-    public Boolean answeredBy(Actor actor) {
+    public String answeredBy(Actor actor) {
 
         try {
             Thread.sleep(7000);
@@ -21,7 +21,7 @@ public class ValidateText implements Question<Boolean> {
         }
 
         WaitUntil.the(LBL_RESULT, isVisible()).forNoMoreThan(10).seconds();
-        return RESULTS.equals(Text.of(LBL_RESULT).answeredBy(actor).toString());
+        return Text.of(LBL_RESULT).answeredBy(actor).trim();
     }
 
     public static ValidateText valText(){

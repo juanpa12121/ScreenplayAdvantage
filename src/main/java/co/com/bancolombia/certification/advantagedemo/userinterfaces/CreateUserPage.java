@@ -17,6 +17,6 @@ public class CreateUserPage {
     public static final Target TXT_STATE = Target.the("State").located(By.name("state_/_province_/_regionRegisterPage"));
     public static final Target TXT_POSTAL_CODE = Target.the("Postal code").located(By.name("postal_codeRegisterPage"));
     public static final Target CHK_I_AGREE = Target.the("I agree").located(By.name("i_agree"));
-    public static final  Target BTN_REGISTER = Target.the("Register").located(By.id("register_btnundefined"));
+    public static final  Target BTN_REGISTER = Target.the("Register").located(By.id("register_btn"));
 
 }
