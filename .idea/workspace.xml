@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43876105-8438-479b-9df6-56328bdbe14e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/buy_laptop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/buy_laptop.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/create_users.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/create_users.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/login_users.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login_users.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +110,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.BuyLaptop.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.CreateUsers.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -121,7 +118,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Documents/ScreenplayAdvantage/src/main/java/co/com/bancolombia/certification/advantagedemo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Documents/semillero_automatizacion/ScreenplayAdvantage/src/test/resources&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -130,8 +127,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Documents\semillero_automatizacion\ScreenplayAdvantage\src\test\resources" />
       <recent name="C:\Users\Usuario\Documents\ScreenplayAdvantage\src\main\java\co\com\bancolombia\certification\advantagedemo" />
       <recent name="C:\Users\saris\Documents\Semillero-automatizacion\ScreenplayAdvantage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Documents\semillero_automatizacion\ScreenplayAdvantage\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.com.bancolombia.certification.advantagedemo.interactions" />
+      <recent name="co.com.bancolombia.certification.advantagedemo.stepdefinitions" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.CreateUsers">

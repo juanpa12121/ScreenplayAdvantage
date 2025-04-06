@@ -14,5 +14,5 @@ Feature: successfully create users
     Then I validate the correct user creation
     Examples:
       | username | email              | password     | confirmPassword | firstName | lastName | phoneNumber | country  | state     | address      | city   | zip    |
-      | jp13   | juan1255@gmail.com | Aa$123456789 | Aa$123456789    | Juan      | Rivera   | 3147009489  | Colombia | Antioquia | Calle 50 sur | Itaguí | 055413 |
+      | jp13     | juan1255@gmail.com | Aa$123456789 | Aa$123456789    | Juan      | Rivera   | 3147009489  | Colombia | Antioquia | Calle 50 sur | Itaguí | 055413 |
 
